@@ -116,7 +116,7 @@ button
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-size:contain; */
+    background-size:cover;
     border-radius: 10px;
     
 }
@@ -217,14 +217,14 @@ line-height: normal;
 .destination-img-2
 {
     display: grid;
-    grid-template-columns: 352px 452px 253px;
+    grid-template-columns: 32% 43% 21.4%;
     gap: 20px;
     margin-bottom: 20px;
 }
 .destination-img-3
 {
     display: grid;
-    grid-template-columns: 439px 639px;
+    grid-template-columns: 40% 58.4%;
     gap: 20px;
 }
 .destination p , .five p
