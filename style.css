@@ -1,5 +1,10 @@
 body
 {
+    margin: 0;
+    padding: 0;
+}
+.body
+{
     margin: 25px 125px 0 125px;
 }
 /* header-navigation-part */
@@ -47,14 +52,14 @@ body
     color: white;
     border-radius: 5px;
 }
-.img-nav h1
+.img-nav h1 , .five h1
 {
     color: #131318;
     font-weight: 800;
     font-family: Mulish;
     font-size: 35px;
 }
-.img-nav h1 span
+.img-nav h1 span , .five h1 span
 {
     color: #FF5400;
 }
@@ -160,17 +165,23 @@ font-weight: 800;
 .two
 {
     display: flex;
-    gap: 55px;
+    gap: 5.5%;
     margin-bottom: 125px;
     
 }
+.two .popular , .two .popular-img
+{
+    width: 100%;
+}
+
 .popular h1,p,li
 {
     margin-bottom: 20px;
 }
 .popular-img img
 {
-    width: 500px;
+    width: 100%;
+    height: 100%;
     
 }
 .popular p,li
@@ -208,8 +219,8 @@ line-height: normal;
 .destination-img-1
 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: 49% 49%;
+    gap: 2%;
     margin-bottom: 20px;
    
     
@@ -218,14 +229,14 @@ line-height: normal;
 {
     display: grid;
     grid-template-columns: 32% 43% 21.4%;
-    gap: 20px;
+    gap: 2%;
     margin-bottom: 20px;
 }
 .destination-img-3
 {
     display: grid;
     grid-template-columns: 40% 58.4%;
-    gap: 20px;
+    gap: 2%;
 }
 .destination p , .five p
 {
@@ -334,12 +345,31 @@ width:480px;
 margin-top: 10px;
 }
 /* final-section */
+.five
+{
+    background: rgba(19, 19, 24, 0.05);
+    padding: 0;
+   
+}
+
+.five p
+{
+    margin-bottom: 0px !important;
+    padding-bottom: 5px;
+}
+.footer h1, img
+{
+   padding-right: 15px;
+}
 .footer
 {
     margin-top: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
+    
+   
 }
 .icon
 {
@@ -348,6 +378,7 @@ margin-top: 10px;
     align-items: center;
     gap: 25px;
     margin-bottom: 40px;
+    margin-top: 25px;
 }
 @media screen and (max-width:600px)  
 {
@@ -368,7 +399,7 @@ margin-top: 10px;
         height: 33.516px;
         flex-shrink: 0;
     }
-    body 
+    .body 
     {
         margin: 20px;
     }
@@ -429,10 +460,10 @@ width: 310px;
     width: 80%;
     
   }
-  .input-field input, select, button
+  .input-field input, select
   {
     width: 100%;
-    padding: 0px;
+    padding-left: 10px;
     
   }
   .header-main
