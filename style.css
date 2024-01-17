@@ -416,6 +416,7 @@ margin-top: 10px;
     .nav 
     {
         position: absolute;
+        gap: 10px;
         background-color: #FFF;
         top: 70px;
        flex-direction: column;
@@ -424,6 +425,7 @@ margin-top: 10px;
        width: 100%;
        left: -100%;
        transition: all 0.5s;
+       margin-top: 15px;
        
         
         /* display: none; */
@@ -435,7 +437,7 @@ margin-top: 10px;
     .checkbtn
     {
         display: block;
-        left: 90%;
+        left: 85%;
         top: 12px;
     }
    
@@ -466,12 +468,18 @@ width: 310px;
     width: 80%;
     
   }
-  .input-field input, select
+  .input-field select
   {
     width: 100%;
-    padding-left: 10px;
+    
     
   }
+  .input-field input 
+  {
+    width: 96%;
+    padding-left: 10px;
+  }
+  .i
   .header-main
   {
     background-size: cover;
